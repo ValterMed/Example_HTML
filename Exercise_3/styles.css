@@ -14,15 +14,22 @@
   border-style: none solid none none;
   background-color: #fdfefe;
   font-size: 10px;
-  width: 150px;
-  padding: 25px;
-
-  /* font-weight: bold;
-  padding-top: 1px;
-  padding-right: 1px;
-  padding-bottom: 1px;
-  padding-left: 1px;  */
+  width: 140px;
+  padding: 10px;
 }
+
+#cabtab3{
+  position: absolute;
+  left: 164px;
+  top: 1px;
+  background-color: #fdfefe;
+  font-size: 10px;
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 19px;
+  padding-left: 0px;
+}
+
 #cuerpotab2{
    font-size: 8pt;
    padding: 4 4 4 4px;
@@ -34,18 +41,6 @@
   left: 100px;
   top: 150px;
   font-weight: bold;
-  font-size: 8pt;
+  font-size: 10pt;
   padding: 2 2 2 2px;
-}
-
-#h2{
-  position: absolute;
-  left: 100px;
-  top: 150px;
-}
-
-#h3{
-  position: absolute;
-  left: 100px;
-  top: 150px;
 }
