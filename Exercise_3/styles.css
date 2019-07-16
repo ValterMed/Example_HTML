@@ -1,0 +1,51 @@
+#BigTable{
+  position: absolute;
+  left: 10;
+  top: 50;
+}
+
+#tabla2{
+   border: 5px solid #cecece;
+   width: 290px;
+}
+#cabtab2{
+  border-color: black;
+  border-width: none 1px none none;
+  border-style: none solid none none;
+  background-color: #fdfefe;
+  font-size: 10px;
+  width: 150px;
+  padding: 25px;
+
+  /* font-weight: bold;
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;  */
+}
+#cuerpotab2{
+   font-size: 8pt;
+   padding: 4 4 4 4px;
+   background-color: #fdfefe;
+}
+
+#h1{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  font-weight: bold;
+  font-size: 8pt;
+  padding: 2 2 2 2px;
+}
+
+#h2{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+#h3{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
