@@ -1,18 +1,28 @@
+body{
+  background-color:#cecece;
+}
+
 a{
   text-decoration: none;
 }
 
-#BigTable{
+/*p{ 
+  color:rgb(155,155,155);
+  font-size: 9px;
+}*/
+
+.container{
   position: absolute;
   left: 10;
   top: 10;
 }
 
-#table{
+.box{
    border: 5px solid #cecece;
    width: 290px;
 }
-#sub_table1{
+
+.title{
   background-color: #fdfefe;
   font-size: 10px;
   width: 140px;
@@ -26,19 +36,20 @@ a{
   padding-bottom: 20px;
 }
 
-#sub_table2{
+.date{
   position: absolute;
   left: 105px;
   top: 5px;
   background-color: #fdfefe;
-  font-size: 10px;
+  color:rgb(155,155,155);
+  font-size: 9px;
   margin-right: 1px;
   margin-left: 1px;
-  margin-top: 6px;
+  margin-top: 1px;
   margin-bottom: 1px;
 }
 
-#sub_table3{
+.price{
   position: absolute;
   left: 210px;
   top:0px;
@@ -54,7 +65,7 @@ a{
   padding-bottom: 12px;
 }
 
-#sub_table4{
+.link{
   position: absolute;
   left: 10px;
   top: 20px;
@@ -171,4 +182,14 @@ a{
   bottom: 10px;
   border: 3px solid none;
   border-left: 2px solid #cecece;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .table{
+    border: 5px solid lightblue;
+    width: 290px;
+  }
 }
